@@ -22,6 +22,8 @@
 
 - Python 3.10 or later
 - pip package manager
+- **IBM Quantum Account:** An IBM Quantum Platform account (Flex or Premium plan) or TechZone account for workshop access
+- **Qiskit Functions Access:** Request access from your instructor (Junye) or administrator 
 
 ### Installation
 
@@ -45,7 +47,7 @@
 4. **Add virtual environment to Jupyter:**
    ```bash
    pip install ipykernel
-   python -m ipykernel install --user --name qiskit-workshop --display-name "Python (Qiskit Workshop)"
+   python -m ipykernel install --user --name qiskit-functions-workshop --display-name "Python (Qiskit Functions Workshop)"
    ```
 
 ### Running the Notebooks
@@ -62,7 +64,7 @@
    jupyter lab
    ```
 
-3. **Select the kernel:** When you open a notebook, select the "Python (Qiskit Workshop)" kernel from the kernel selector in the top-right corner.
+3. **Select the kernel:** When you open a notebook, select the "Python (Qiskit Functions Workshop)" kernel from the kernel selector in the top-right corner.
 
 4. **Navigate** to the `guides/` or `tutorials/` folder and open any `.ipynb` file.
 
@@ -88,7 +90,7 @@
    jupyter notebook
    ```
 
-2. **Select the kernel:** When you open a notebook, select the "Python (Qiskit Workshop)" kernel from the "Kernel" menu.
+2. **Select the kernel:** When you open a notebook, select the "Python (Qiskit Functions Workshop)" kernel from the "Kernel" menu.
 
 3. **Navigate** to the `guides/` or `tutorials/` folder and open any `.ipynb` file.
 
