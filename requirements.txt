@@ -1,20 +1,18 @@
 # Core Qiskit packages
-qiskit[visualization]~=2.1.0
-qiskit-ibm-runtime~=0.40.1
-qiskit-ibm-catalog~=0.8.0
+# qiskit-ibm-catalog pulls qiskit-serverless, qiskit-ibm-runtime and qiskit.
+qiskit-ibm-catalog~=0.15.0
+# Keep Aer explicitly because tutorials import qiskit_aer directly.
 qiskit-aer>=0.13.0
-qiskit-serverless~=0.24.0
 
 # Qiskit addons
-qiskit-addon-utils>=0.1.0
-qiskit-addon-obp>=0.1.0
+qiskit-addon-utils>=0.3.1
+qiskit-addon-obp>=0.3.0
 qiskit-addon-opt-mapper>=0.1.0
 
 # Data science and ML
-pandas>=2.0.0,<3.0.0
-numpy>=1.21.0
-scikit-learn==1.5.2
-imbalanced-learn~=0.12.3
+pandas~=3.0.0
+scikit-learn==1.8.0
+imbalanced-learn~=0.14.1
 
 # Visualization and plotting
 matplotlib>=3.5.0
@@ -34,4 +32,4 @@ PyGithub>=1.55
 pyscf>=2.0.0
 
 # Q-CTRL visualization
-qctrlvisualizer>=1.0.0
+qctrl-visualizer>=1.0.0
