@@ -16,3 +16,79 @@
 
 > **Note:** These guide and tutorial files are sourced from the official [Qiskit documentation repository](https://github.com/Qiskit/documentation).
 
+## Setup
+
+### Prerequisites
+
+- Python 3.10 or later
+- pip package manager
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/HuangJunye/qiskit-functions-workshop.git
+   cd qiskit-functions-workshop
+   ```
+
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Add virtual environment to Jupyter:**
+   ```bash
+   pip install ipykernel
+   python -m ipykernel install --user --name qiskit-workshop --display-name "Python (Qiskit Workshop)"
+   ```
+
+### Running the Notebooks
+
+#### Option 1: JupyterLab (Recommended)
+
+1. **Install JupyterLab:**
+   ```bash
+   pip install jupyterlab
+   ```
+
+2. **Launch JupyterLab:**
+   ```bash
+   jupyter lab
+   ```
+
+3. **Select the kernel:** When you open a notebook, select the "Python (Qiskit Workshop)" kernel from the kernel selector in the top-right corner.
+
+4. **Navigate** to the `guides/` or `tutorials/` folder and open any `.ipynb` file.
+
+#### Option 2: Visual Studio Code
+
+1. **Install VS Code extensions:**
+   - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+   - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+2. **Open the repository in VS Code:**
+   ```bash
+   code .
+   ```
+
+3. **Select the kernel:** Open any `.ipynb` file and click the kernel selector in the top-right corner. Choose "Python (Qiskit Workshop)".
+
+4. **Run cells:** Execute cells individually or use "Run All" to execute the entire notebook.
+
+#### Option 3: Classic Jupyter Notebook
+
+1. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+
+2. **Select the kernel:** When you open a notebook, select the "Python (Qiskit Workshop)" kernel from the "Kernel" menu.
+
+3. **Navigate** to the `guides/` or `tutorials/` folder and open any `.ipynb` file.
+
